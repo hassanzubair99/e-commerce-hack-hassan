@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Links } from "react-router-dom";
+
 const Header = () => {
   return (
     <header>

@@ -6,8 +6,6 @@ import Products from "./Product";
 import NeuralUniverseSection from "./NeuralUniverseSection";
 import FeaturedPosts from "./FeaturedPost";
 import Footer from "./Footer";
-
-import { Link } from "react-router-dom";
 export default function front() {
 
   return (
