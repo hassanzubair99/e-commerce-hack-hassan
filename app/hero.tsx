@@ -15,7 +15,7 @@ const NewCollection = () => {
           <p className="uppercase text-sm tracking-wide font-bold">Summer 2020</p>
             <h1 className="text-4xl lg:text-6xl font-bold mt-6">New Collection</h1>
           <p className="text-base mt-4">
-            We know how large objects will act, but things on a small scale.
+            We know how large objects will act, but things on Link small scale.
           </p>
           <button className="mt-6 bg-[#2DC071] text-white font-bold py-2 px-6 rounded hover:bg-green-600 transition">
             Shop Now

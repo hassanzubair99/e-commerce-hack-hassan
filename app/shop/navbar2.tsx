@@ -19,7 +19,7 @@ const Header = () => {
 
           {/* Center Text */}
           <div className="hidden md:block font-semibold">
-            Follow Us and get a chance to win 80% off
+            Follow Us and get Link chance to win 80% off
           </div>
 
           {/* Social Icons */}

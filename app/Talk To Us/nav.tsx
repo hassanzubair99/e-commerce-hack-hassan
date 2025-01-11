@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 const Navbar0= () => {
   return (
     <header className="bg-white shadow-sm">
@@ -20,14 +21,14 @@ const Navbar0= () => {
 
         {/* Right Section: Login and Button */}
         <div className="flex items-center space-x-6">
-          <a href="#" className="text-blue-500 font-medium hover:underline">Login</a>
-          <a
+          <Link href="#" className="text-blue-500 font-medium hover:underline">Login</Link>
+          <Link
             href="#"
             className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-medium flex items-center transition"
           >
-            Become a member
+            Become Image member
             <span className="ml-2">→</span>
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}

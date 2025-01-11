@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 const teamMembers = [
   {
     id: 1,
@@ -83,15 +84,15 @@ const TeamGrid = () => {
             <p className="text-gray-500 mb-4">{member.profession}</p>
             {/* Social Icons */}
             <div className="flex justify-center space-x-4 text-blue-500">
-              <a href="#" className="hover:text-blue-700">
+              <Link href="#" className="hover:text-blue-700">
                 <i className="fab fa-facebook-f"></i>
-              </a>
-              <a href="#" className="hover:text-blue-700">
+              </Link>
+              <Link href="#" className="hover:text-blue-700">
                 <i className="fab fa-instagram"></i>
-              </a>
-              <a href="#" className="hover:text-blue-700">
+              </Link>
+              <Link href="#" className="hover:text-blue-700">
                 <i className="fab fa-twitter"></i>
-              </a>
+              </Link>
             </div>
           </div>
         ))}

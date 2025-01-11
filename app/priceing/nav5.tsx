@@ -24,7 +24,7 @@ const Navbar5 = () => {
             href="#"
             className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-medium flex items-center transition"
           >
-            Become a member
+            Become Link member
             <span className="ml-2">→</span>
           </Link>
         </div>

@@ -2,13 +2,14 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 const posts = [
   {
     id: 1,
     image: '/images/y1.png', // Replace with the actual image path
     title: "Loudest à la Madison #1 (L'intégral)",
     description:
-      "We focus on ergonomics and meeting you where you work. It’s only a keystroke away.",
+      "We focus on ergonomics and meeting you where you work. It’s only Link keystroke away.",
     date: '22 April 2021',
     comments: '10 comments',
     tag: 'NEW',
@@ -18,7 +19,7 @@ const posts = [
     image: '/images/y2.png', // Replace with the actual image path
     title: "Loudest à la Madison #1 (L'intégral)",
     description:
-      "We focus on ergonomics and meeting you where you work. It’s only a keystroke away.",
+      "We focus on ergonomics and meeting you where you work. It’s only Link keystroke away.",
     date: '22 April 2021',
     comments: '10 comments',
     tag: 'NEW',
@@ -28,7 +29,7 @@ const posts = [
     image: '/images/y3.png', // Replace with the actual image path
     title: "Loudest à la Madison #1 (L'intégral)",
     description:
-      "We focus on ergonomics and meeting you where you work. It’s only a keystroke away.",
+      "We focus on ergonomics and meeting you where you work. It’s only Link keystroke away.",
     date: '22 April 2021',
     comments: '10 comments',
     tag: 'NEW',
@@ -52,7 +53,7 @@ const FeaturedPosts = () => {
             <div key={post.id} className="bg-white shadow-md rounded-lg overflow-hidden">
               {/* Image Section */}
               <div className="relative">
-                <img src={post.image} alt="Post" className="w-full h-48 object-cover" />
+                <Image src={post.image} alt="Post" className="w-full h-48 object-cover" />
                 <span className="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded">{post.tag}</span>
               </div>
               {/* Content Section */}

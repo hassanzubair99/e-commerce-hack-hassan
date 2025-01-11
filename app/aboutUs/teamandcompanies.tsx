@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 const TeamAndCompanies = () => {
   return (
     <div className="w-full">
@@ -8,7 +9,7 @@ const TeamAndCompanies = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center  bg-white max-w">
           {/* Team Member 1 */}
           <div className="flex flex-col items-center  bg-white max-w">
-            <img
+            <Image
               src="/images/t2.png" // Corrected Path
               alt="Team Member 1"
               className="rounded-md w-full max-w-xs"
@@ -24,7 +25,7 @@ const TeamAndCompanies = () => {
 
           {/* Team Member 2 */}
           <div className="flex flex-col items-center  bg-white max-w">
-            <img
+            <Image
               src="/images/t4.png" // Corrected Path
               alt="Team Member 1"
               className="rounded-md w-full max-w-xs"
@@ -40,7 +41,7 @@ const TeamAndCompanies = () => {
 
           {/* Team Member 3 */}
           <div className="flex flex-col items-center bg-white max-w">
-            <img
+            <Image
               src="/images/t4.png" // Corrected Path
               alt="Team Member 3"
               className="rounded-md w-full max-w-xs"
@@ -67,27 +68,27 @@ const TeamAndCompanies = () => {
 
         {/* Company Logos */}
         <div className="flex flex-wrap justify-center gap-8 px-4">
-          <img
+          <Image
             src="/images/C1.png" // Corrected Path
             alt="Hooli"
             className="h-8 md:h-12"
           />
-          <img
+          <Image
             src="/images/C2.png" // Corrected Path
             alt="Lyft"
             className="h-8 md:h-12"
           />
-          <img
+          <Image
             src="/images/C3.png" // Corrected Path
             alt="Stripe"
             className="h-8 md:h-12"
           />
-          <img
+          <Image
             src="/images/C4.png" // Corrected Path
             alt="AWS"
             className="h-8 md:h-12"
           />
-          <img
+          <Image
             src="/images/C5.png" // Corrected Path
             alt="Reddit"
             className="h-8 md:h-12"

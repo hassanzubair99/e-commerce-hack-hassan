@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'next/image';
-
+import Link from "next/link";
 const Products = () => {
   return (
     <div className="flex items-center justify-center bg-[#23856D]">
@@ -10,13 +10,13 @@ const Products = () => {
           <p className="uppercase text-sm tracking-wide">Summer 2020</p>
           <h1 className="text-4xl lg:text-6xl font-bold mt-2">New Collection</h1>
           <p className="text-base mt-2">
-            We know how large objects will act, but things on a small scale.
+            We know how large objects will act, but things on Link small scale.
           </p>
-          <a href="/shop">
+          <Link href="/shop">
             <button className="mt-2 bg-green-500 text-white py-2 px-6 rounded hover:bg-green-600 transition">
               Shop Now
             </button>
-          </a>
+          </Link>
         </div>
 
         {/* Image Section */}

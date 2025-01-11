@@ -48,7 +48,7 @@ const Footer = () => {
               <h3 className="text-gray-800 font-semibold mb-2">Resources</h3>
               <ul className="text-gray-500 space-y-1 text-sm">
                 <li>IOS & Android</li>
-                <li>Watch a Demo</li>
+                <li>Watch Link Demo</li>
                 <li>Customers</li>
                 <li>API</li>
               </ul>

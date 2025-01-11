@@ -61,7 +61,7 @@ const Footer = () => {
           <h2 className="font-bold text-gray-800 mb-4">Resources</h2>
           <ul className="space-y-2">
             <li>IOS & Android</li>
-            <li>Watch a Demo</li>
+            <li>Watch Link Demo</li>
             <li>Customers</li>
             <li>API</li>
           </ul>

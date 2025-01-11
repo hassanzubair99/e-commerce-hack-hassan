@@ -15,7 +15,7 @@ const NavBar = () => {
             </span>
           </div>
           <div className="flex items-center space-x-4">
-            <span>Follow Us and get a chance to win 80% off</span>
+            <span>Follow Us and get Link chance to win 80% off</span>
             <div className="flex space-x-2">
               <Link href="#">
                 <i className="fab fa-instagram text-white"></i>

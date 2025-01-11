@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const ShopPage = () => {
   const cards = [
-    { id: 1, img: "/images/S1.png", text: "CLOTHS", items: 5 },
-    { id: 2, img: "/images/S2.png", text: "CLOTHS", items: 5 },
-    { id: 3, img: "/images/S3.png", text: "CLOTHS", items: 5 },
-    { id: 4, img: "/images/S4.png", text: "CLOTHS", items: 5 },
-    { id: 5, img: "/images/S5.png", text: "CLOTHS", items: 5 },
+    { id: 1, Image: "/images/S1.png", text: "CLOTHS", items: 5 },
+    { id: 2, Image: "/images/S2.png", text: "CLOTHS", items: 5 },
+    { id: 3, Image: "/images/S3.png", text: "CLOTHS", items: 5 },
+    { id: 4, Image: "/images/S4.png", text: "CLOTHS", items: 5 },
+    { id: 5, Image: "/images/S5.png", text: "CLOTHS", items: 5 },
   ];
 
   const logos = [
@@ -31,7 +31,7 @@ const ShopPage = () => {
         {cards.map((card) => (
           <div key={card.id} className="relative group">
             <Image
-              src={card.img}
+              src={card.Image}
               alt={card.text}
               width={300}
               height={300}

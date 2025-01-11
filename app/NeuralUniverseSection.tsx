@@ -19,7 +19,7 @@ const NeuralUniverseSection = () => {
           Part of the Neural Universe
         </h2>
         <p className="text-gray-600 text-lg mb-6">
-          We know how large objects will act, but things on a small scale.
+          We know how large objects will act, but things on Link small scale.
         </p>
         <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
           <button className="bg-green-500 text-white font-semibold py-2 px-6 rounded hover:bg-green-600 transition">
